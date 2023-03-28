@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+section{
+    padding: 50px 0px;
+}
+
+.header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header p{
+    float: right;
+    color: rgb(128, 128, 128);
+    margin: 0;
+}
+
+.hero{
+    background: url('https://cdn.aarp.net/content/dam/aarp/entertainment/beauty-and-style/2020/12/1140-cosmetics-makeup-store-display.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(59,59,59,0.63);
+    opacity: 0.6;
+}
+
+.z-100{
+    z-index: 100;
+}
+
+.hero-text{
+    color: #fff;
+}
+
+.hero-text h1{
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.hero-text p{
+    font-size: 20px;
+}
+
+.hero-text .btn{
+    padding: 15px 30px;
+}
+
+.article-container{
+    background: rgba(231,231,231,1);
+}
+
+.article img{
+    width: 300px;
+    height: 200px;
+}
+
+.article h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.testimonials{
+   background-color:  rgba(240,240,240,1);
+}
+
+.testimonials-heading{
+    text-align: center;
+}
+
+.line{
+    background: #000;
+    display: block;
+    width: 103px;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.testimonials-heading p{
+    color: rgb(128, 128, 128);
+}
+
+.testimonial{
+    border: 1px solid #d7d7d7;
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+.testimonial p{
+    font-style: italic;
+}
+
+.shop-beauty{
+    background: url('https://hips.hearstapps.com/hmg-prod/images/makeup-cosmetic-products-color-background-flat-lay-royalty-free-image-1657643143.jpg?crop=1.00xw:0.752xh;0,0.0865xh&resize=1200:*');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 100%;
+}
+
+.shop-beauty h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.shop-beauty .btn{
+    padding: 15px 30px;
+}
+
+.footer{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 10px;
+    color: rgb(128, 128, 128);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 1025px) {
+    .hero-text h1{
+        font-size: 48px;
+    }
+    
+    .hero-text p{
+        font-size: 18px;
+    }
+    
+    .hero-text .btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .article-container{
+        background: rgba(231,231,231,1);
+    }
+    
+    .article img{
+        width: 200px;
+    }
+    
+    .article h4{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .testimonials-heading p{
+        color: rgb(128, 128, 128);
+        font-size: 14;
+    }
+    
+    .testimonial{
+        border: 1px solid #d7d7d7;
+        padding: 40px 20px;
+        text-align: center;
+        color: rgb(128, 128, 128);
+    }
+    
+    .shop-beauty h3{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    .shop-beauty .btn{
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+    .header{
+        text-align: center;
+    }
+
+    .header .phone{
+        display: none;
+    }
+
+    .hero-text h1{
+        font-size: 36px;
+    }
+    
+    .hero-text p{
+        font-size: 13px;
+    }
+    
+    .hero-text .btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    
+    
+    .article img{
+        width: 200px;
+    }
+    
+    .article h4{
+        font-size: 16px;
+    }
+
+    .article p{
+        font-size: 14px;
+    }
+    
+    .testimonials-heading h3{
+        font-size: 20px;
+    }
+
+    .testimonials-heading p{
+        font-size: 14px;
+    }
+
+    .testimonial{
+        padding: 20px;
+    }
+
+
+    .testimonial p{
+        font-size: 14px;
+    }
+
+    .shop-beauty{
+        text-align: center;
+    }
+    
+    .shop-beauty h3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .shop-beauty .btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0px;
+        height: 100%;
+    }
+ }
+
+ @media screen and (max-width: 399.99px) {
+    .logo{
+        width: 50px;
+    }
+
+    .header{
+        text-align: center;
+    }
+    
+
+    .header .phone{
+        display: none;
+    }
+
+    .hero-text h1{
+        font-size: 24px;
+    }
+    
+    .hero-text p{
+        font-size: 12px;
+    }
+    
+    .hero-text .btn{
+        padding: 7px 15px;
+        font-size: 10px;
+    }
+    
+    
+    .article img{
+        width: 200px;
+    }
+    
+    .article h4{
+        font-size: 14px;
+    }
+
+    .article p{
+        font-size: 12px;
+    }
+    
+    .testimonials-heading h3{
+        font-size: 18px;
+    }
+
+    .testimonials-heading p{
+        font-size: 12px;
+    }
+
+    .testimonial{
+        padding: 20px;
+    }
+
+    .testimonial p{
+        font-size: 12px;
+    }
+
+    .testimonial h6{
+        font-size: 13px;
+    }
+
+    .shop-beauty{
+        text-align: center;
+    }
+    
+    .shop-beauty h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+    
+    .shop-beauty .btn{
+        padding: 7px 15px;
+        font-size: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0px;
+        height: 100%;
+    }
+
+    .footer img{
+        width: 50px;
+    }
+ }
