@@ -25,7 +25,7 @@ section{
 }
 
 .hero{
-    background: url('https://i.postimg.cc/SsyTzxKb/moda-hero.jpg');
+    background: url('https://cdn.aarp.net/content/dam/aarp/entertainment/beauty-and-style/2020/12/1140-cosmetics-makeup-store-display.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -70,15 +70,16 @@ section{
     padding: 15px 30px;
 }
 
-.icon-container{
+.article-container{
     background: rgba(231,231,231,1);
 }
 
-.icon img{
-    width: 75px;
+.article img{
+    width: 300px;
+    height: 200px;
 }
 
-.icon h4{
+.article h4{
     font-weight: bold;
     font-size: 18px;
 }
@@ -114,8 +115,8 @@ section{
     font-style: italic;
 }
 
-.shop-suit{
-    background: url('https://i.postimg.cc/fT3HdFMy/moda-suit-bg.jpg');
+.shop-beauty{
+    background: url('https://hips.hearstapps.com/hmg-prod/images/makeup-cosmetic-products-color-background-flat-lay-royalty-free-image-1657643143.jpg?crop=1.00xw:0.752xh;0,0.0865xh&resize=1200:*');
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -127,12 +128,13 @@ section{
     width: 100%;
 }
 
-.shop-suit h3{
+.shop-beauty h3{
     font-size: 48px;
     font-weight: bold;
+    color: #fff;
 }
 
-.shop-suit .btn{
+.shop-beauty .btn{
     padding: 15px 30px;
 }
 
@@ -167,15 +169,15 @@ section{
         font-size: 14px;
     }
     
-    .icon-container{
+    .article-container{
         background: rgba(231,231,231,1);
     }
     
-    .icon img{
-        width: 65px;
+    .article img{
+        width: 200px;
     }
     
-    .icon h4{
+    .article h4{
         font-weight: bold;
         font-size: 16px;
     }
@@ -192,12 +194,12 @@ section{
         color: rgb(128, 128, 128);
     }
     
-    .shop-suit h3{
+    .shop-beauty h3{
         font-size: 36px;
         font-weight: bold;
     }
     
-    .shop-suit .btn{
+    .shop-beauty .btn{
         padding: 15px 20px;
         font-size: 14px;
     }
@@ -226,15 +228,15 @@ section{
     }
     
     
-    .icon img{
-        width: 50px;
+    .article img{
+        width: 200px;
     }
     
-    .icon h4{
+    .article h4{
         font-size: 16px;
     }
 
-    .icon p{
+    .article p{
         font-size: 14px;
     }
     
@@ -255,16 +257,16 @@ section{
         font-size: 14px;
     }
 
-    .shop-suit{
+    .shop-beauty{
         text-align: center;
     }
     
-    .shop-suit h3{
+    .shop-beauty h3{
         font-size: 24px;
         font-weight: bold;
     }
     
-    .shop-suit .btn{
+    .shop-beauty .btn{
         padding: 10px 20px;
         font-size: 12px;
     }
@@ -278,12 +280,13 @@ section{
 
  @media screen and (max-width: 399.99px) {
     .logo{
-        width: 100px;
+        width: 50px;
     }
 
     .header{
         text-align: center;
     }
+    
 
     .header .phone{
         display: none;
@@ -303,15 +306,15 @@ section{
     }
     
     
-    .icon img{
-        width: 45px;
+    .article img{
+        width: 200px;
     }
     
-    .icon h4{
+    .article h4{
         font-size: 14px;
     }
 
-    .icon p{
+    .article p{
         font-size: 12px;
     }
     
@@ -335,17 +338,17 @@ section{
         font-size: 13px;
     }
 
-    .shop-suit{
+    .shop-beauty{
         text-align: center;
     }
     
-    .shop-suit h3{
+    .shop-beauty h3{
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 1.5rem;
     }
     
-    .shop-suit .btn{
+    .shop-beauty .btn{
         padding: 7px 15px;
         font-size: 10px;
     }
@@ -354,5 +357,9 @@ section{
         text-align: center;
         padding: 20px 0px;
         height: 100%;
+    }
+
+    .footer img{
+        width: 50px;
     }
  }
